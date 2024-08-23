@@ -4,12 +4,17 @@ body {
     color: white;
     margin: 0;
     padding: 0;
+    display: flex; /* Added */
+    justify-content: center; /* Added */
+    align-items: center; /* Added */
+    min-height: 100vh; /* Added */
 }
 
 .container {
     width: 80%;
-    margin: 0 auto;
+    max-width: 800px; /* Added to limit the width of the container */
     padding: 20px;
+    text-align: center; /* Added to center-align text within the container */
 }
 
 h1 {
