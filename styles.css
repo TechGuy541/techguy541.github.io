@@ -62,10 +62,13 @@ h1 {
 .footer {
   margin-top: 2rem;
   text-align: center;
-  padding: 1rem 0;
-  background: #282c34;
   color: #ffffff;
+  background: #282c34; /* Ensure it stays dark for contrast */
+  padding: 1rem 0; /* Minimal padding to prevent the boxed look */
+  border: none; /* Removes any unintended borders */
+  box-shadow: none; /* Ensures no shadows are present */
 }
+
 
 .footer p {
   margin-bottom: 0.5rem;
