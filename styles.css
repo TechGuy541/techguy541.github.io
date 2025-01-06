@@ -76,6 +76,16 @@ h1 {
 }
 
 .footer .button {
-  display: inline-block;
-  margin-top: 0.5rem;
+  background: #ffffff; /* White background for the button */
+  color: #282c34; /* Dark text color for contrast */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.footer .button:hover {
+  background: #50575e; /* Darker hover effect */
+  color: #ffffff; /* White text on hover */
 }
