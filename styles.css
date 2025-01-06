@@ -63,11 +63,12 @@ h1 {
   margin-top: 2rem;
   text-align: center;
   color: #ffffff;
-  background: #282c34; /* Ensure it stays dark for contrast */
-  padding: 1rem 0; /* Minimal padding to prevent the boxed look */
-  border: none; /* Removes any unintended borders */
-  box-shadow: none; /* Ensures no shadows are present */
+  background: #282c34; /* Keep the dark background */
+  padding: 1rem;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
+
 
 
 .footer p {
